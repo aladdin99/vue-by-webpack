@@ -1,0 +1,4 @@
+# 兼容不同版本浏览器配置：https://github.com/yagnikvadi2003/browserslistrc
+> 1%,
+last 2 versions, 
+not ie <= 8

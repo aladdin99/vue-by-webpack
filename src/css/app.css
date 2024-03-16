@@ -1,0 +1,8 @@
+.app_dream {
+  color: red;
+  display: inline-block;
+  width: 100%;
+  background-color: #dcdcdc;
+  padding: 10px;
+  box-sizing: border-box;
+}
