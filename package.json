@@ -1,7 +1,7 @@
 {
-  "name": "cli",
+  "name": "vue-by-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个基于 webpack 构建的 vue 案例",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",

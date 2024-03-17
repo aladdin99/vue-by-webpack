@@ -10,12 +10,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { DefinePlugin } = require("webpack");
 const { VueLoaderPlugin } = require("vue-loader");
 const CopyPlugin = require("copy-webpack-plugin");
+// const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./../src/main.js"),
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "./../dist"),
+    path: path.resolve(__dirname, "./../docs"),
   },
   devServer: {
     static: path.resolve(__dirname, "./../public"),
@@ -110,6 +111,16 @@ module.exports = {
     //       },
     //     },
     //   ],
+    // }),
+    // new ManifestPlugin({
+    //   fileName: "manifest.json",
+    //   publicPath: "/dist/",
+    //   generate: {
+    //     audio: false,
+    //     image: false,
+    //     video: false,
+    //     favicon: false,
+    //   },
     // }),
   ],
 };
